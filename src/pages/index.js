@@ -1,40 +1,56 @@
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
+
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+    <header className={styles.heroBanner}>
+      <div className={`container ${styles.heroContent}`}>
+        <div className={styles.heroText}>
+          <Heading as="h1" className={styles.heroTitle}>
+            Technical Documentation that Connects
+          </Heading>
+
+          <p className={styles.heroSubtitle}>
+            Turning complex technology into documentation people can confidently use.
+          </p>
+          </div>
+        <div className={styles.heroImageWrapper}>
+          <img
+            className={styles.heroImage}
+            src="/img/bridge-reader-advocate.png"
+            alt="Bridge connecting a technical team with documentation readers"
+          />
         </div>
-      </div>
+
+          <div className={styles.buttons}>
+            <Link
+              className="button button--primary button--lg"
+              to="/docs/portfolio-overview">
+              View My Work
+            </Link>
+
+            <Link
+              className="button button--secondary button--lg"
+              to="/about">
+              About Me
+            </Link>
+          </div>
+        </div>              
     </header>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Creating Documentation that Connects"
+      description="Haletha Judkins creates clear, user-focused technical documentation for software, APIs, and complex products.">
       <HomepageHeader />
+
       <main>
         <HomepageFeatures />
       </main>

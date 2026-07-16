@@ -1,50 +1,43 @@
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: 'API Documentation',
+    description:
+      'Explore REST API references, authentication guidance, developer tutorials, and integration content.',
+    link: '/portfolio/api-documentation',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: 'User Documentation',
+    description:
+      'View user guides, administrator content, procedures, compliance reports, and other technical samples.',
+    link: '/portfolio/user-documentation',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: 'Featured Projects',
+    description:
+      'Learn about documentation automation, Python development, docs-as-code, and process improvements.',
+    link: '/projects',
+  },
+  {
+    title: 'Writing & Editing',
+    description:
+      'Read technical articles and review examples of editing, content organization, and reader-focused writing.',
+    link: '/portfolio/writing-editing',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description, link}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+    <div className={clsx('col col--3', styles.featureColumn)}>
+      <Link className={styles.featureCard} to={link}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
-      </div>
+        <span className={styles.featureLink}>Explore →</span>
+      </Link>
     </div>
   );
 }
@@ -53,9 +46,17 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.sectionHeading}>
+          <Heading as="h2">Where would you like to begin?</Heading>
+          <p>
+            Explore examples of my documentation, technical projects, and
+            professional writing.
+          </p>
+        </div>
+
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((feature) => (
+            <Feature key={feature.title} {...feature} />
           ))}
         </div>
       </div>

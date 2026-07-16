@@ -83,10 +83,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Haletha Judkins',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/website-logo.png',
         },
         items: [
           {
@@ -96,26 +96,21 @@ const config = {
           },
                    
           {
-            to: '/portfolio', label: 'Portfolio', position: 'left',
-          },
-          
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/portfolio', 
+            label: 'Portfolio',
             position: 'left',
-            label: 'API Docs',
           },
-          
+                   
           {
-            to: '/writing-samples', label: 'Writing Samples', position: 'left',
-          },
-          
-          {
-            to: '/blog', label: 'Blog', position: 'left'
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
           },
           
             {
-              to: '/about', label: 'About', position: 'left'
+              to: '/about',
+              label: 'About',
+              position: 'left'
             },   
           ],
       },
