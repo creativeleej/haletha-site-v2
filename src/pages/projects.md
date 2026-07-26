@@ -1,16 +1,23 @@
----
-title: Projects
----
+# Featured Projects
 
-# Projects
+Explore projects that demonstrate technical writing, documentation automation, docs-as-code, and process improvement.
 
-Explore documentation automation, docs-as-code, Python development, and process-improvement projects.
+---
 
 ## Report Automation Tool
 
-A Python-based solution that streamlines the creation of technical compliance reports by combining project data, test information, images, and document templates.
+**Python • Documentation Automation • Process Improvement**
+
+Designed and built Report Automation 1.0 to reduce the time required to assemble complex EMC compliance reports. The application combines project metadata, engineering information, images, and standardized templates into a draft report in seconds.
+
+➡️ **Read the case study→**
+
+---
 
 ## Docs-as-Code Portfolio
 
-This site demonstrates my experience with Docusaurus, Markdown, Git, GitHub, structured content, and static-site publishing.
+**Docusaurus • Markdown • Git • GitHub**
 
+Designed and built this portfolio using modern docs-as-code practices to demonstrate structured authoring, version control, and static-site publishing.
+
+➡️ **Explore the project →**

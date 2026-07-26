@@ -17,3 +17,46 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+posts:
+  label: Posts
+  permalink: /posts
+  description: Posts tag description
+  
+docs-as-code:
+  label: Docs-as-code
+  permalink: /docs-as-code
+  description: Docs-as-code tag description
+  
+technical-writing:
+  label: Technical Writing
+  permalink: /technical-writing
+  description: Technical writing tag description
+  
+api-documentation:
+  label: API Documentation
+  permalink: /api-documentation
+  description: API documentation tag description
+
+artificial-intelligence:
+  label: Artificial Intelligence
+  permalink: /artificial-intelligence
+  description: Artificial intelligence tag description
+
+general:
+  label: General
+  permalink: /general
+  description: General tag description
+
+collaboration:
+  label: Collaboration
+  permalink: /collaboration
+  description: Collaboration tag description  
+
+developer-experience:
+  label: Developer Experience
+  permalink: /developer-experience
+  description: Developer experience tag description
+
+
+

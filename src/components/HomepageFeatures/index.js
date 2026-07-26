@@ -8,25 +8,26 @@ const FeatureList = [
     title: 'API Documentation',
     description:
       'Explore REST API references, authentication guidance, developer tutorials, and integration content.',
-    link: '/portfolio/api-documentation',
+    link: '/portfolio#api-documentation',
   },
   {
     title: 'User Documentation',
     description:
       'View user guides, administrator content, procedures, compliance reports, and other technical samples.',
-    link: '/portfolio/user-documentation',
+    link: '/portfolio#user-documentation',
+  },
+
+    {
+    title: 'Technical Communications',
+    description:
+      'Read technical documents, and reader-focused writing.',
+    link: '/portfolio#technical-communications',
   },
   {
     title: 'Featured Projects',
     description:
       'Learn about documentation automation, Python development, docs-as-code, and process improvements.',
     link: '/projects',
-  },
-  {
-    title: 'Writing & Editing',
-    description:
-      'Read technical articles and review examples of editing, content organization, and reader-focused writing.',
-    link: '/portfolio/writing-editing',
   },
 ];
 
@@ -47,11 +48,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className={styles.sectionHeading}>
-          <Heading as="h2">Where would you like to begin?</Heading>
-          <p>
-            Explore examples of my documentation, technical projects, and
-            professional writing.
-          </p>
+          <Heading as="h2"> Explore My Work</Heading>          
         </div>
 
         <div className="row">

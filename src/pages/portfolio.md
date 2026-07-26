@@ -5,52 +5,141 @@ description: Selected technical writing, API documentation, user documentation, 
 
 # Portfolio
 
-Explore selected examples of my work across developer documentation, user guidance, technical reporting, editing, automation, and documentation process improvement.
-
-## API & Developer Documentation
-
-REST API references, integration guides, SDK content, authentication guidance, and developer tutorials.
-
-[Explore API documentation →](/portfolio/api-documentation)
+Explore examples of documentation I've created for developers, engineers, end users, and compliance teams. My approach is grounded in the 7 Cs of technical writing, helping transform complex technical information into documentation that is clear, accurate, and easy to maintain.
 
 ---
 
-## User & Administrator Documentation
+## API Documentation
 
-User guides, administrator guides, installation instructions, procedures, and task-based support content.
+<div className="portfolioSample">
 
-[Explore user documentation →](/portfolio/user-documentation)
+  <a
+    href="/portfolio/api-documentation/api-guide/"
+    className="portfolioThumbnailLink">
+    <img
+      src="/samples/api-guide.png"
+      alt="API Guide cover"
+      className="portfolioThumbnail"
+    />
+  </a>
+
+  <div className="portfolioSampleText">
+
+### [API Guide](/portfolio/api-documentation/api-guide/)
+
+A before-and-after user guide sample demonstrating technical editing, information architecture, content restructuring, and reader-focused writing.
+
+[View project details →](/portfolio/api-documentation/api-guide/)
+
+  </div>
+
+</div>
 
 ---
 
-## Compliance & Technical Reports
+## User Documentation
 
-Engineering reports, test procedures, standards-based content, and documentation created for technical review.
+<div className="portfolioSample">
 
-[Explore compliance and technical reports →](/portfolio/compliance-documentation)
+  <a
+    href="/portfolio/user-documentation/clearaudit-user-guide/"
+    className="portfolioThumbnailLink">
+    <img
+      src="/samples/clearaudit-user-guide.png"
+      alt="ClearAudit Compliance Manager User Guide cover"
+      className="portfolioThumbnail"
+    />
+  </a>
+
+  <div className="portfolioSampleText">
+
+### [ClearAudit Compliance Manager User Guide](/portfolio/user-documentation/clearaudit-user-guide/)
+
+A before-and-after user guide sample demonstrating technical editing, information architecture, content restructuring, and reader-focused writing.
+
+[View project details →](/portfolio/user-documentation/clearaudit-user-guide/)
+
+  </div>
+
+</div>
+
+<div className="portfolioSample">
+
+  <a
+    href="/portfolio/user-documentation/polycom-setup-guide/"
+    className="portfolioThumbnailLink">
+    <img
+      src="/samples/polycom-setup-guide.png"
+      alt="Polycom setup guide cover"
+      className="portfolioThumbnail"
+    />
+  </a>
+
+  <div className="portfolioSampleText">
+
+### [Polycom Setup Guide](/portfolio/user-documentation/clearaudit-user-guide/)
+
+A before-and-after user guide sample demonstrating technical editing, information architecture, content restructuring, and reader-focused writing.
+
+[View project details →](/portfolio/user-documentation/polycom-setup-guide/)
+
+  </div>
+
+</div>
+
+<div className="portfolioSample">
+
+  <a
+    href="/portfolio/user-documentation/room-prep-guide/"
+    className="portfolioThumbnailLink">
+    <img
+      src="/samples/room-prep-guide.png"
+      alt="Room Prep Guide cover"
+      className="portfolioThumbnail"
+    />
+  </a>
+
+  <div className="portfolioSampleText">
+
+### [Blog Post and Room Prep Guide](/portfolio/user-documentation/room-prep-guide/)
+
+A before-and-after user guide sample demonstrating technical editing, information architecture, content restructuring, and reader-focused writing.
+
+[View project details →](/portfolio/user-documentation/room-prep-guide/)
+
+  </div>
+
+</div>
 
 ---
 
-## Writing & Editing
+## Technical Communications
 
-Before-and-after examples, technical articles, content restructuring, copyediting, and reader-focused communication.
+<div className="portfolioSample">
 
-[Explore writing and editing samples →](/portfolio/writing-editing)
+  <a
+    href="/portfolio/technical-communicationsn/mobile-office-white-paper/"
+    className="portfolioThumbnailLink">
+    <img
+      src="/samples/mobile-office-white-paper.png"
+      alt="White Paper cover"
+      className="portfolioThumbnail"
+    />
+  </a>
 
----
+  <div className="portfolioSampleText">
 
-## Projects & Case Studies
+### [Mobile Office White Paper](/portfolio/technical-communications/mobile-office-white-paper/)
 
-Explore projects that demonstrate documentation automation, docs-as-code, process improvement, and technical problem-solving.
+A before-and-after user guide sample demonstrating technical editing, information architecture, content restructuring, and reader-focused writing.
 
-### Report Automation 1.0
+[View project details →](/portfolio/technical-communications/mobile-office-white-paper/)
 
-A Python-based documentation automation solution that reduces complex report assembly from hours of manual work to seconds for supported reports.
+  </div>
 
-[Read the Report Automation case study →](/projects/report-automation)
+</div>
 
-### Docs-as-Code Website
 
-This website demonstrates my experience with Docusaurus, Markdown, Git, GitHub, structured content, and static-site publishing.
 
-[Learn about this docs-as-code project →](/projects/docs-as-code-portfolio)
+
+

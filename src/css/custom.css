@@ -28,3 +28,40 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.portfolioSample {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.portfolioThumbnailLink {
+  flex: 0 0 150px;
+}
+
+.portfolioThumbnail {
+  display: block;
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.portfolioSampleText {
+  flex: 1;
+  min-width: 0;
+}
+
+.portfolioSampleText h3 {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolioSample {
+    flex-direction: column;
+  }
+
+  .portfolioThumbnailLink {
+    flex-basis: auto;
+  }
+}

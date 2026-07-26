@@ -100,6 +100,12 @@ const config = {
             label: 'Portfolio',
             position: 'left',
           },
+
+           {
+            to: '/projects',
+            label: 'Projects',
+            position: 'left'
+          },
                    
           {
             to: '/blog',

@@ -4,20 +4,10 @@
  */
 
 .heroBanner {
-  padding: 3rem 0 2rem;
+  padding: 3rem 0 0.5rem;
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-
-  .heroContent {
-    flex-direction: column;
-  }
 }
 
 .heroContent {
@@ -44,51 +34,34 @@
   line-height: 1.5;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1.25rem;
-}
-
 .heroImageWrapper {
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 0.5rem;
 }
 
 .heroImage {
-  width: 72%;
-  max-width: 900px;
+  width: 78%;
+  max-width: 1000px;
   height: auto;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;  
-}
-/**
- * For smaller screens.
- */
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem 1.25rem;
+    padding: 2rem 1.25rem 0.5rem;
+  }
+
+  .heroContent {
+    flex-direction: column;
   }
 
   .heroTitle {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .heroSubtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .heroImage {
     width: 95%;
-  }
-
-  .buttons {
-    flex-wrap: wrap;
   }
 }

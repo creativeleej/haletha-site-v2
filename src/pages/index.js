@@ -15,7 +15,7 @@ function HomepageHeader() {
           </Heading>
 
           <p className={styles.heroSubtitle}>
-            Turning complex technology into documentation people can confidently use.
+            Transforming complex technology into documentation people can confidently use.
           </p>
           </div>
         <div className={styles.heroImageWrapper}>
@@ -24,21 +24,7 @@ function HomepageHeader() {
             src="/img/bridge-reader-advocate.png"
             alt="Bridge connecting a technical team with documentation readers"
           />
-        </div>
-
-          <div className={styles.buttons}>
-            <Link
-              className="button button--primary button--lg"
-              to="/docs/portfolio-overview">
-              View My Work
-            </Link>
-
-            <Link
-              className="button button--secondary button--lg"
-              to="/about">
-              About Me
-            </Link>
-          </div>
+        </div>          
         </div>              
     </header>
   );
