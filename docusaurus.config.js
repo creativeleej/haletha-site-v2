@@ -120,51 +120,47 @@ const config = {
             },   
           ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+footer: {
+  style: 'dark',
+  links: [
+    {
+      title: 'Explore',
+      items: [
+        {
+          label: 'Portfolio',
+          to: '/portfolio',
+        },
+        {
+          label: 'Projects',
+          to: '/projects',
+        },
+        {
+          label: 'About',
+          to: '/about',
+        },
+      ],
+    },
+    {
+      title: 'Connect',
+      items: [
+        {
+          label: 'LinkedIn',
+          href: 'https://www.linkedin.com/in/halethajudkins',
+        },
+        {
+          label: 'GitHub',
+          href: 'https://github.com/creativeleej',
+        },
+        {
+          label: 'Email',
+          href: 'mailto:hlj@haletha.com',
+        },
+      ],
+    },
+  ],
+  copyright: `© ${new Date().getFullYear()} Haletha Judkins`,
+},
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

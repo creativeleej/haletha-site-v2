@@ -11,4 +11,4 @@ Explore selected examples of hardware guides.
 
 A hardware setup guide sample demonstrating technical writing,illustrating, and organization.
 
-[View the Polycom Setup Guide project page →](/portfolio/hardware-documentation/polycom-setup-guide/)
+[View the Polycom Setup Guide project page →](/portfolio/user-documentation/polycom-setup-guide/)

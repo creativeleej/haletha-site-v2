@@ -1,5 +1,5 @@
 ---
-layouslugt: why-ai-apis-are-hardest-to-document
+slug: why-ai-apis-are-hardest-to-document
 title: "Why AI APIs Are the Hardest Things to Document (And What to Do About It)"
 date: 2026-04-28
 authors:

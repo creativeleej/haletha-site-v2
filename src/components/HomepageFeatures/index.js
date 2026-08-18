@@ -13,14 +13,14 @@ const FeatureList = [
   {
     title: 'User Documentation',
     description:
-      'View user guides, administrator content, procedures, compliance reports, and other technical samples.',
+      'View user guides, administrator content, procedures, and other technical samples.',
     link: '/portfolio#user-documentation',
   },
 
     {
     title: 'Technical Communications',
     description:
-      'Read technical documents, and reader-focused writing.',
+      'Read technical documents and reader-focused writing.',
     link: '/portfolio#technical-communications',
   },
   {

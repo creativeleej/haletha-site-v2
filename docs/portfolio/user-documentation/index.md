@@ -11,4 +11,4 @@ Explore selected examples of user guides, administrator guides, procedures, and 
 
 A before-and-after documentation sample demonstrating technical editing, information architecture, content restructuring, and reader-focused writing.
 
-[View the ClearAudit project page →](./clearaudit-user-guide/)
+[View the ClearAudit project page →](/portfolio/user-documentation/clearaudit-user-guide/)
