@@ -126,6 +126,10 @@ footer: {
           label: 'Projects',
           to: '/projects',
         },
+         {
+          label: 'Blog',
+          to: '/blog',
+        },
         {
           label: 'About',
           to: '/about',
@@ -146,6 +150,10 @@ footer: {
         {
           label: 'Email',
           href: 'mailto:hlj@haletha.com',
+        },
+         {
+          label: 'X (Twitter)',
+          href: 'https://x.com/halethajudkins',
         },
       ],
     },
